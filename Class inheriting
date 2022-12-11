@@ -1,0 +1,15 @@
+class Details:
+    def __init__(self,name,std,age):
+        self.name=name
+        self.std=std
+        self.age=age
+
+person1= Details("Rohan",10,16)
+print(person1.name)
+print(person1.std)
+print(person1.age)
+
+person2= Details("Mohan",11,17)
+print(person2.name)
+print(person2.std)
+print(person2.age)
